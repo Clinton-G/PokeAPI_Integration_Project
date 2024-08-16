@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Explorer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+    .jumbotron {
+        background-color: lightgrey;
+        border-radius: 10px;
+    }
+
+    .btn-primary {
+        background-color: orange;
+        border-color: black;
+    }
+
+    .btn-primary:hover {
+        background-color: orange;
+        border-color: black;
+        border-radius: 10px;
+    }
+
+</style>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="pokemon_explorer.html">Pokemon Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="pokemon_explorer.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon_search.html">Search</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron text-center mt-5">
+            <h1>Welcome to the Pokedex</h1>
+            <p class="lead">Discover Info on The Creatures of the Pokemon World</p>
+            <a class="btn btn-primary btn-lg" href="pokemon_search.html" role="button">Start Searching</a>
+        </div>
+    </div>
+
+</body>
+</html>
